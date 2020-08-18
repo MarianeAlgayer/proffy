@@ -116,9 +116,10 @@
     display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
     color: var(--color-button-text);
     font: 700 1.4rem Archivo;
+    text-decoration: none;
 
     background-color: var(--color-secondary);
     width: 20rem;
@@ -135,8 +136,14 @@
     transition: background 0.2s;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
     background-color: var(--color-secondary-dark);
+}
+
+#page-study main .no-results {
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
 }
 
 @media (min-width:700px) {
